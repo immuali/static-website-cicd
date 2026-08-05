@@ -1,0 +1,62 @@
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+  color: #ffffff;
+  background: linear-gradient(135deg, #0f172a, #2563eb);
+}
+
+/* Main content box */
+.container {
+  width: 100%;
+  max-width: 700px;
+  padding: 50px 30px;
+
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Main heading */
+h1 {
+  margin-bottom: 20px;
+  font-size: 42px;
+}
+
+/* Paragraphs */
+p {
+  margin-top: 12px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {
+  .container {
+    padding: 35px 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
